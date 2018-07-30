@@ -19,7 +19,8 @@ a:hover{
 h1{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	text-align: center;
-	font-size: 55px;
+	height: 60px;
+	width:100%;
 }
 
 .nveg{
@@ -28,4 +29,32 @@ h1{
 
 .veg{
 	color: #C3423F;
+}
+
+.sidebar{
+	position: absolute;
+	top: 115px;
+	text-align: left;
+	width: 200px;
+	height: calc(100% - 548px);
+
+	background: linear-gradient(grey, black);
+
+}
+
+.container{
+	position: relative;
+	height:1000px;
+}
+
+.content{
+	position: absolute;
+	top: 0px;
+	left:200px;
+}
+
+#shadow{
+	border:1px solid;
+	padding: 10px;
+	box-shadow: 3px 6px black;
 }
