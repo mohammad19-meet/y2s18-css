@@ -1,1 +1,31 @@
+body{
+	background-color: #373F51;
+	color: white;
+}
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+}
 
+a{
+	color:#E43F6F;
+	text-decoration: none;
+
+}
+
+a:hover{
+	color: #F56476;
+}
+h1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	font-size: 55px;
+}
+
+.nveg{
+	color:#550C18;
+}
+
+.veg{
+	color: #C3423F;
+}
